@@ -27,7 +27,7 @@ public class CountryRacer  implements Runnable {
 	}
 
 	public void run() {
-		long startTime = System.currentTimeMillis();
+//		long startTime = System.currentTimeMillis();
 		runner1.start();
 		runner2.start();
 		try {
@@ -37,7 +37,7 @@ public class CountryRacer  implements Runnable {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		countryTime = System.currentTimeMillis() - startTime;
+		countryTime = System.currentTimeMillis();
 	}
 
 
